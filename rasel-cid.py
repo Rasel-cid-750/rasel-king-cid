@@ -125,7 +125,88 @@ def jalan(z):
         sys.stdout.flush()
 
         time.sleep(0.01)
+        
+        def main_apv():
 
+    imt="110Y=="
+
+    ak="RASEL_100RS"
+
+    os.system('clear')
+
+    print(logo)
+
+    try:
+
+        key1=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'r').read()
+
+    except IOError:
+
+        os.system("clear")
+
+        print(logo)
+
+        print ("༄rasel᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
+        print ("YOUR TOKEN IS NOT APROVAL")     
+        print ("         THIS IS YOUR TOKEN👇📥📬")
+        print ("༄rasel᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
+
+        print ("")
+
+        myid=uuid.uuid4().hex[:10].upper()
+
+        print ("          YOUR KEY : "+ak+myid+imt)
+
+        print ("༄rasel᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
+
+        kok=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'w')
+
+        kok.write(myid+imt)
+
+        kok.close()
+
+        print ("")
+
+        print ("")
+
+        print ("  Copy Key And Sent Me WhatsApp Approvel Your Key ")
+
+        print ("༄rasel᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
+
+        time.sleep(3.5)
+
+        tks = 'Dear%20Admin,%20Please%20Approved%20My%20Token%20To%20Premium%20% 20% 20%20%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
+
+        os.system('am start https://wa.me/+92188049915?text=' + tks)
+
+        
+
+    r1=requests.get("https://raw.githubusercontent.com/Red-Mafia/fiile/main/Sm.txt").text
+
+    if key1 in r1:
+
+        R()
+
+    else:
+
+        os.system("clear")
+
+        print(logo)
+
+        print ("         ༄rasel᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
+        print ("             \033[1;94mGIVE ME 100RS FOR APROVAL RASEL")     
+           
+        print ("             \033[1;32mYOUR KEY : "+ak+key1)     
+        print ("             Key And Sent Me WP Approvel Your Key ")
+        print ("         ༄rasel᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
+
+        time.sleep(3.5)
+
+        tks = 'Dear%20Admin,%20Please%20Apporved%20My%20Key%20To%20Premium✓✓%20%20%20%20%20My%20%20Key%20%20:%20'+ak+''+key1
+
+        os.system('am start https://wa.me/01315304162?text=' + tks)
+
+        
 logo="""
              \033[1;93m8888888b.                             888
              \033[1;95m888   Y88b                            888
@@ -569,7 +650,7 @@ class __xxx__:
 
 def dupcutter():
 
-	os.system("xdg-open https://wa.me/+923188049915")
+	os.system("xdg-open https://wa.me/01315304162")
 
 	time.sleep(3)
 
