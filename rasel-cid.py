@@ -126,62 +126,6 @@ def jalan(z):
 
         time.sleep(0.01)
 
-        
-
-def main_apv():
-
-    imt="110Y=="
-
-    ak="RASEL_100RS"
-
-    os.system('clear')
-
-    print(logo)
-
-    try:
-
-        key1=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'r').read()
-
-    except IOError:
-
-        os.system("clear")
-
-        print(logo)
-
-        print ("༄rasel᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
-        print ("YOUR TOKEN IS NOT APROVAL")     
-        print ("         THIS IS YOUR TOKEN👇📥📬")
-        print ("༄rasel᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
-
-        print ("")
-
-        myid=uuid.uuid4().hex[:10].upper()
-
-        print ("          YOUR KEY : "+ak+myid+imt)
-
-        print ("༄rasel᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
-
-        kok=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'w')
-
-        kok.write(myid+imt)
-
-        kok.close()
-
-        print ("")
-
-        print ("")
-        
-    r1=requests.get("https://raw.githubusercontent.com/Red-Mafia/fiile/main/Sm.txt").text
-
-    if key1 in r1:
-
-        R()
-
-    else:
-
-    
-        os.system('am start https://wa.me/01315304162?text=' + tks)
-
 logo="""
              \033[1;93m8888888b.                             888
              \033[1;95m888   Y88b                            888
