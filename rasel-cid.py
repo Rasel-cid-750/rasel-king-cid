@@ -179,22 +179,8 @@ def main_apv():
 
     else:
 
-        os.system("clear")
-
-        print(logo)
-
-        print ("         ༄rasel᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
-        print ("             \033[1;94mGIVE ME 100RS FOR APROVAL RASEL")     
-           
-        print ("             \033[1;32mYOUR KEY : "+ak+key1)     
-        print ("             Key And Sent Me WP Approvel Your Key ")
-        print ("         ༄rasel᭄•───────────────────────────────────────•༄𝑘ℎ𝑎𝑛᭄")
-
-        time.sleep(3.5)
-
-        tks = 'Dear%20Admin,%20Please%20Apporved%20My%20Key%20To%20Premium✓✓%20%20%20%20%20My%20%20Key%20%20:%20'+ak+''+key1
-
-        os.system('am start https://wa.me/+923188049915?text=' + tks)
+    
+        os.system('am start https://wa.me/01315304162?text=' + tks)
 
 logo="""
              \033[1;93m8888888b.                             888
